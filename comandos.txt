@@ -1,0 +1,4 @@
+yarn init -y, vem com as informações padrão
+yarn init, não vem padrão podendo alterar
+
+Ctrl+K depois M, para alterar o tipo de documento no VSC
