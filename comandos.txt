@@ -3,5 +3,12 @@ yarn init, não vem padrão podendo alterar
 
 Ctrl+K depois M, para alterar o tipo de documento no VSC
 
-
 usar o insomnia para verificar users
+
+migrations é toda trajetória do banco de dados, semelhante a um histórico
+yarn typeorm migration:run, executa tudo que esta no run e caso de erro
+yarn typeorm migration:revert
+
+usar ctrl+shift+p e sqlite open database para verificar se foi criado adequadamente
+ou
+beekeeper studio 
