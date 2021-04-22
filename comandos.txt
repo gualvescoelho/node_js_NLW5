@@ -12,3 +12,8 @@ yarn typeorm migration:revert
 usar ctrl+shift+p e sqlite open database para verificar se foi criado adequadamente
 ou
 beekeeper studio 
+
+yarn typeorm migration:create -n CreateUsers, cria a tabela e usar ctrl+clique para 
+abrir o arquivo do endereço gerado
+
+CTRL+D , selecionar todos os elementos semelhantes do VSCODE e alterar de uma só vez
