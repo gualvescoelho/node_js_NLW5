@@ -1,17 +1,10 @@
-import express from "express";
+import { http } from "./http";
+import "./websocket/client";
 
-import "./database" //vai importar o index, identificando por padrão o index
-//migrations são os historicos que tem relacionado a tudo que tem no banco de dados
+http.listen(3333, () => console.log("Server is running on port 3333"));
 
-import { routes } from "./routes";
 
-const app = express();
-
-app.use(express.json());
-
-app.use(routes);
-
-app.listen(3333, () => console.log("Server is running on port 3333"));
+//app.listen(3333, () => console.log("Server is running on port 3333"));
 
 
 //aula dia 1 abaixo
