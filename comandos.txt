@@ -17,3 +17,5 @@ yarn typeorm migration:create -n CreateUsers, cria a tabela e usar ctrl+clique p
 abrir o arquivo do endereço gerado
 
 CTRL+D , selecionar todos os elementos semelhantes do VSCODE e alterar de uma só vez
+
+usar Mustache para redenizar e pesquisar sobre, ferramenta muito boa para html
